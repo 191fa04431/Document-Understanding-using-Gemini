@@ -45,9 +45,8 @@ This project demonstrates the use of **Gemini AI** for intelligent document unde
 
 3. Set your Gemini API Key:
    
-   ```bash 
-  import google.generativeai as genai
-  genai.configure(api_key="your_api_key_here")
+  - import google.generativeai as genai
+  - genai.configure(api_key="your_api_key_here")
 
 4. Run the notebook:
   - Open Document_Understanding_using_gemini.ipynb in Jupyter or Colab and follow the cells step-by-step.
