@@ -40,11 +40,11 @@ This project demonstrates the use of **Gemini AI** for intelligent document unde
    cd document-understanding-gemini
 
 2. Install dependencies:
-   
+    ```bash
     pip install google-generativeai pillow
 
 3. Set your Gemini API Key:
-   
+   ```bash 
   import google.generativeai as genai
   genai.configure(api_key="your_api_key_here")
 
